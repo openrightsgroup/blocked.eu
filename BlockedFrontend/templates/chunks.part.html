@@ -1,0 +1,40 @@
+
+{%macro contactForm(rowClass="") %}
+
+<div class="row {{rowClass}}">
+<div class="col-md-6">
+<h3>Stay informed</h3>
+</div>
+</div>
+<div class="row {{rowClass}}">
+<div class="col-md-6">
+
+<p>If you would like to stay informed about ORG's work in censorship, privacy, copyright reform and defending human rights and digital civil liberties, please sign up for our newsletter.</p>
+
+</div>
+<div class="col-md-6">
+
+  <a class="btn btn-lg btn-primary" href="https://action.openrightsgroup.org/sign-up-for-org-email-updates">Sign up</a>
+
+</div>
+</div>
+{%endmacro%}
+
+{%macro contactChunk() %}
+{%endmacro%}
+
+{% macro menu_link(title, url) %}
+<a class="{{ 'active' if request.path.startswith(url) else ''}}" href="{{url}}">{{title}}</a>
+{% endmacro %}
+{% macro menu_link_eq(title, url) %}
+<a class="{{ 'active' if request.path == url else ''}}" href="{{url}}">{{title}}</a>
+{% endmacro %}
+
+
+{% macro main_menu() %}
+<a class="" href="https://www.openrightsgroup.org/contact/">Contact</a>
+
+{% endmacro %}
+
+{% macro piwik() %}
+{% endmacro %}

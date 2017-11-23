@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:600|Roboto');
+
+h1, .pctlg, #blockcount {
+  margin-top: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 52px;
+}
+
+#blockcount {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+
+h3, .pctdesc, .pagerole {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+a {
+  text-decoration: underline;
+  color: #111;
+}
+
+a.btn {
+    text-decoration: none;
+    }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.shaded-row, .sitelistrow {
+  background-color: #eee;
+}
+
+.menurow {
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+
+.statsrow {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.row {
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+.menu {
+  text-align: right;
+}
+
+.menu a, #categoryname {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 2em;
+  color: #111;    
+  font-size: 14px;
+}
+
+.menu a.active {
+  color: #a00;
+}
+
+#categoryname {
+  color: darkgray;
+}
+
+.menu a.current {
+  color: #c11;
+}
+
+.menu a:active {
+  color: #c11;
+}
+
+.pagemenu {
+  font-family: 'Poppins', sans-serif;
+}
+
+.pagemenu div {
+  margin-bottom: 0.2em;
+}
+
+.pctlg {
+  font-size: 64px;
+}
+
+form {
+margin-top: 2em;
+}
+
+.randomurl {
+font-size: 125%;
+}
+
+#results * a {
+    text-decoration: none;
+    }
+
+#results h4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 35em;
+
+    }
+
+#results * td.reveal a {
+    display: none;
+}
+
+#results * tr td a, .sitereport {
+    padding-right: 0.75em;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.sitereport {
+    width: 15%;
+    }
+
+#results * tr:hover td.reveal a {
+    display: inline-block;
+
+}
+#results * td {
+    width: 15%;
+    vertical-align: middle;
+    text-align: center;
+    }
+#results * td:last-child {
+    width: 40%;
+    text-align: right;
+    }
+#results * td:first-child {
+    width: 40%;
+    text-align: left;
+    }
+
+#active * td {
+    background-color: #ffeded;
+}
+
+#past * td, #active .disabled td {
+    background-color: #ececec;
+    }
+
+#allresults * td {
+    background-color: #edffed;
+    }
+#allresults tr.error td {
+    background-color: #ffffed;
+    }
+
+.showmore {
+    text-align: right;
+}
+
+.showmore a {
+    margin-left: 2em;
+    }
+
+.pagerole {
+    margin-bottom: 0.5em;
+    }
+
+.url {
+    color: grey;
+    text-overflow: ellipsis;
+}
+
+.url a {
+    color: grey;
+}
+
+a.btn-primary, button.btn-primary, input.btn-primary, a.btn-default{
+  text-transform: uppercase;
+  background-color: black;
+  background-image: none;
+  border-radius: 0px;
+  color: white;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+input.form-control, textarea.form-control, input[type=checkbox] {
+  border-color: black;
+  border-radius: 0px;
+}
+
+
+#loading {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.25em;
+  background-color: lightgray;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+#paging {
+    margin-top: 1.5em;
+    }
+
+.results-table th {
+    width: 30%;
+}
+
+.results-table th:first-child {
+    width: 40%;
+}
+
+.btn-primary[disabled] {
+    background-color: #808080 !important;
+}
+
+td.num {
+    text-align: right;
+}
+
+th.num {
+    text-align: center;
+}
+
+.topstrip {
+    background-color: black;
+    color: #dfdfdf;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topstrip .row {
+    text-align: right;
+    padding-bottom: 0.5em;
+}
+
+.topstrip .row a {
+    margin-left: 0.25em;
+}
+
+.sendisps {
+    margin-top: 0.5em;
+}
+
+.sendisps span {
+    font-weight: bold;
+}
